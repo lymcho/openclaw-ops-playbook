@@ -1,0 +1,7 @@
+title: OpenClaw Ops Playbook
+description: A complete agent architecture for running your life and work on OpenClaw. Copy-paste templates for identity, memory, domain routing, and proactive automation.
+baseurl: "/openclaw-ops-playbook"
+url: "https://lymcho.github.io"
+
+exclude:
+  - index.md
