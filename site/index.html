@@ -11,6 +11,11 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="OpenClaw Ops Playbook">
   <meta name="twitter:description" content="A complete agent architecture for running your life and work on OpenClaw.">
+  <meta property="og:image" content="assets/og.png">
+  <meta property="og:image:width" content="1024">
+  <meta property="og:image:height" content="1024">
+  <meta name="twitter:image" content="assets/og.png">
+  <link rel="icon" type="image/png" href="assets/logo.png">
   <style>
     *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
     :root{
@@ -43,7 +48,8 @@
       padding:14px 0;
     }
     nav .container{display:flex;align-items:center;justify-content:space-between}
-    .nav-brand{font-weight:700;font-size:.9rem;letter-spacing:.02em}
+    .nav-brand{font-weight:700;font-size:.9rem;letter-spacing:.02em;display:flex;align-items:center;gap:10px}
+    .nav-brand img{width:24px;height:24px}
     .nav-links{display:flex;gap:24px;align-items:center}
     .nav-links a{color:var(--dim);font-size:.8rem;font-weight:400;letter-spacing:.04em;text-transform:uppercase}
     .nav-links a:hover{color:var(--fg);opacity:1}
@@ -268,7 +274,7 @@
     <!-- Nav -->
     <nav>
       <div class="container">
-        <div class="nav-brand">OpenClaw Ops Playbook</div>
+        <div class="nav-brand"><img src="assets/logo.png" alt="OpenClaw"> OpenClaw Ops Playbook</div>
         <div class="nav-links">
           <a href="#architecture" class="nav-link-text">Architecture</a>
           <a href="#domains" class="nav-link-text">Domains</a>
@@ -284,6 +290,7 @@
     <!-- Hero -->
     <section class="hero" style="border-bottom:1px solid var(--border)">
       <div class="container">
+        <img src="assets/logo.png" alt="OpenClaw" width="64" height="64" class="fade-up" style="margin-bottom:28px">
         <div class="hero-label fade-up">Open Source &middot; Copy & Paste Ready</div>
         <h1 class="fade-up">Your AI Assistant<br>Deserves an<br>Operating System</h1>
         <p class="fade-up">

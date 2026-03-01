@@ -1,4 +1,8 @@
 <p align="center">
+  <img src="site/assets/logo.png" alt="OpenClaw" width="80">
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/templates-35%2B-7c5cfc?style=for-the-badge" alt="35+ templates">
   <img src="https://img.shields.io/badge/domains-8-22d3ee?style=for-the-badge" alt="8 life domains">
   <img src="https://img.shields.io/badge/dependencies-0-34d399?style=for-the-badge" alt="Zero dependencies">
